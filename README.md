@@ -1,10 +1,9 @@
-# Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification (SDGCN  for ABSA)
-
+# SDGCN
  
-> Aspect Based Sentiment Analysis, Tensorflow Implementations.
+> Tensorflow Implementations.
 >
 >
-> 基于方面的情感分析，使用Tensorflow实现。
+> 使用Tensorflow实现。
 
 
 
@@ -18,4 +17,23 @@
 
 
 ## Usage
+### Creat the embedding
+*GloVe: Download pre-trained word vectors [here](https://github.com/stanfordnlp/GloVe#download-pre-trained-word-vectors).. In this implement, we use glove.42B.300d.zip
+*BERT: Refer to [creat_BERT_embedding.py](./data/creat_BERT_embedding.py) to create BERT Embedding if need.
+
+### Training
+
+```sh
+python run_glove.py 
+```
+Train model with GloVe Embedding. See [run_glove.py](./run_glove.py) for more training arguments.
+
+```sh
+python run_bert.py 
+```
+Train model with BERT Embedding. See [run_bert.py](./run_bert.py) for more training arguments. 
+## Citation
+The manuscript of our paper will be avaliable soon:
+"Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification"
+
 
