@@ -5,7 +5,7 @@
 >
 > 使用Tensorflow实现。
 
-
+![sdgcn_img](assets/sdgcn.jpg)
 
 ## Requirement
 * python 3.6 / 3.7
@@ -38,5 +38,5 @@ The manuscript of our paper will be avaliable soon:
 
 "Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification"
 
-![sdgcn_img](assets/sdgcn.jpg)
+
 
