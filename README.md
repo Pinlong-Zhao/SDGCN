@@ -38,4 +38,5 @@ The manuscript of our paper will be avaliable soon:
 
 "Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification"
 
+![sdgcn_img](assets/GCNmodel.pdf)
 
