@@ -18,7 +18,8 @@
 
 ## Usage
 ### Creat the embedding
-*GloVe: Download pre-trained word vectors [here](https://github.com/stanfordnlp/GloVe#download-pre-trained-word-vectors).. In this implement, we use glove.42B.300d.zip
+*GloVe: Download pre-trained word vectors [here](https://github.com/stanfordnlp/GloVe#download-pre-trained-word-vectors). In this implement, we use glove.42B.300d.zip
+
 *BERT: Refer to [creat_BERT_embedding.py](./data/creat_BERT_embedding.py) to create BERT Embedding if need.
 
 ### Training
@@ -34,6 +35,7 @@ python run_bert.py
 Train model with BERT Embedding. See [run_bert.py](./run_bert.py) for more training arguments. 
 ## Citation
 The manuscript of our paper will be avaliable soon:
+
 "Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification"
 
 
