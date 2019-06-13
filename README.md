@@ -32,9 +32,9 @@ python run_bert.py
 ```
 Train model with BERT Embedding. See [run_bert.py](./run_bert.py) for more training arguments. 
 ## Citation
-The manuscript of our paper will be avaliable soon:
+The manuscript is avaliable in arXiv:
 
-"Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification"
+ "Modeling Sentiment Dependencies with Graph Convolutional Networks for Aspect-level Sentiment Classification". arXiv preprint arXiv:1906.04501 (2019) [[pdf]](https://arxiv.org/pdf/1906.04501.pdf)
 
 ![sdgcn_img](assets/sdgcn.jpg)
 
