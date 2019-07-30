@@ -18,7 +18,7 @@
 ### Creat the embedding
 * GloVe: Download pre-trained word vectors [here](https://github.com/stanfordnlp/GloVe#download-pre-trained-word-vectors). In this implement, we use glove.42B.300d.zip
 
-* BERT: Refer to [creat_BERT_embedding.py](./data/creat_BERT_embedding.py) to create BERT Embedding if need.
+* BERT: Refer to [creat_BERT_embedding.py](./data/creat_BERT_embedding.py) and [creat_BERT_embedding_2_targets.py](./data/creat_BERT_embedding_2_targets.py) to create BERT Embedding if need.
 
 ### Training
 
